@@ -1562,20 +1562,20 @@
       <div class="form-row">
         <div class="form-group">
           <label>Full Name</label>
-          <input type="text" placeholder="John Smith" required>
+          <input type="text" name="name" placeholder="John Smith" required>
         </div>
         <div class="form-group">
           <label>Phone Number</label>
-          <input type="tel" placeholder="04xx xxx xxx" required>
+          <input type="tel" name="phone" placeholder="04xx xxx xxx" required>
         </div>
       </div>
       <div class="form-group">
         <label>Email Address</label>
-        <input type="email" placeholder="your@email.com" required>
+        <input type="email" name="email" placeholder="your@email.com" required>
       </div>
       <div class="form-group">
         <label>Service Required</label>
-        <select required>
+        <select name="service" required>
           <option value="" disabled selected>Select a service...</option>
           <option>Exterior Rendering</option>
           <option>Interior Rendering</option>
@@ -1587,7 +1587,7 @@
       </div>
       <div class="form-group">
         <label>Tell Us About Your Project</label>
-        <textarea placeholder="Brief description of the job, size, location, etc." required></textarea>
+        <textarea name="message" placeholder="Brief description of the job, size, location, etc." required></textarea>
       </div>
       <button type="submit" class="form-submit">Send Enquiry</button>
     </form>
